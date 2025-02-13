@@ -26,6 +26,8 @@
   .container {
     position: relative;
     width: min(400px, 100%);
+    padding-left: 45px;
+    padding-right: 50px;
   }
   ul {
     list-style: none;
@@ -70,12 +72,10 @@
   } /* controls */
   .controls {
     position: absolute;
-    top: 50%;
-    left: 124%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 0.125rem;
+    gap: 28.125rem;
   }
   .controls button {
     width: 1.5rem;
