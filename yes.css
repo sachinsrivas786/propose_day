@@ -78,7 +78,7 @@
     gap: 28.125rem;
   }
   .controls button {
-    width: 1.5rem;
+    width: 2rem;
     aspect-ratio: 1;
     font-size: 1.5rem;
     color: rgb(106, 245, 25);
@@ -86,6 +86,7 @@
     background: pink;
     display: flex;
     place-items: center;
+    background-color:black;
   }
   .controls button:hover,
   .controls button:focus {
